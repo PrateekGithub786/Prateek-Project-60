@@ -88,6 +88,52 @@ h1 {
 	height: 500px;
 }
 
-h4{
-text-align: center;
+h4 {
+	text-align: center;
+}
+
+.menu {
+	position: fixed;
+	background: white;
+	width: 100%;
+	margin-top: 0px;
+	top: 0px;
+	z-index: 10;
+}
+
+a {
+	text-decoration: none;
+	color: aqua;
+	text-shadow: 2px 2px black;
+}
+
+.links {
+	display: inline;
+	padding-left: 33px;
+	padding-right: 25px;
+	font-family: fantasy;
+	font-size: 20px;
+}
+
+.links:hover {
+	text-decoration: underline;
+}
+
+#writings a {
+	text-shadow: none !important;
+	text-decoration: underline !important;
+	color: crimson !important;
+}
+
+#contact {
+	background: firebrick;
+}
+
+.contact_1 a {
+	color: white;
+	text-shadow: none;
+}
+
+.contact_1 h2 {
+	display: inline;
 }
